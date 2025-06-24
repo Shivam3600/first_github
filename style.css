@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #1c1c1c;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  margin: 15px;
+  font-size: 32px;
+}
+
+#score {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#gameContainer {
+  width: 400px;
+  margin: 0 auto;
+  border: 4px solid #fff;
+  background: #111;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+
+#road {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#3a3a3a 70%, #2a2a2a 30%);
+  position: relative;
+  overflow: hidden;
+}
+
+.car {
+  width: 60px;
+  height: 120px;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+}
+
+#playerCar {
+  bottom: 20px;
+  left: 170px;
+  background-image: url('https://cdn.vectorstock.com/i/1000v/45/87/red-cartoon-muscle-car-top-view-vector-21974587.jpg');
+}
+
+.enemy {
+  top: -200px;
+  left: 100px;
+  background-image: url('https://cdn.vectorstock.com/i/1000v/45/87/red-cartoon-muscle-car-top-view-vector-21974587.jpg');
+}
